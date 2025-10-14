@@ -1,6 +1,10 @@
 # Core dependencies
 aiohttp
 
+# API framework
+fastapi
+uvicorn
+
 # Async support
 asyncio-python
 
