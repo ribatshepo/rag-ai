@@ -4,6 +4,8 @@ from abc import ABC, abstractmethod
 from typing import List, Dict, Any, Optional
 from datetime import datetime
 
+from ..models.chunk import TextChunk
+
 
 class IContentProcessor(ABC):
     """Abstract base class for content processing strategies.

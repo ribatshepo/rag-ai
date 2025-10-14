@@ -4,6 +4,9 @@ from abc import ABC, abstractmethod
 from typing import List, Dict, Any, Optional
 from enum import Enum
 
+from ..models.document import Document
+from ..models.query import Query, Response
+
 
 class LogLevel(Enum):
     """Log level enumeration."""
