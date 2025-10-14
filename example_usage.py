@@ -105,7 +105,7 @@ async def main():
     )
     print(f"   Response: {response.text[:50]}... (confidence: {response.confidence})")
     
-    print("\n✅ All examples completed successfully!")
+    print("\n All examples completed successfully!")
 
 
 if __name__ == "__main__":
