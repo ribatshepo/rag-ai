@@ -1,0 +1,43 @@
+# Core dependencies
+aiohttp
+
+# Async support
+asyncio-python
+
+
+# HTML parsing and conversion
+beautifulsoup4
+lxml
+markdownify
+aiofiles
+
+# NLP and text processing
+nltk
+spacy
+langdetect
+tiktoken
+
+# HTTP requests
+urllib3
+
+#   Database and caching
+redis
+numpy
+openai
+sentence-transformers
+pydantic>=2.0.0
+
+
+# Development dependencies
+pytest
+pytest-asyncio>
+black
+flake8
+mypy>
+
+
+# Optional dependencies for enhanced functionality
+# langdetect>=1.0.9  # For language detection in TextProcessor
+# redis>=4.0.0       # For caching and rate limiting
+# psycopg2-binary>=2.9.0  # For PostgreSQL support
+# motor>=3.0.0       # For MongoDB async support
