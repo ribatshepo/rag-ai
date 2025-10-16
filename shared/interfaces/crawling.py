@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 from typing import List, Optional, Dict, Any, AsyncIterator
 from datetime import datetime
 
-from ..models.document import CrawlResult
+from shared.models.document import CrawlResult
 
 
 class ICrawlingStrategy(ABC):

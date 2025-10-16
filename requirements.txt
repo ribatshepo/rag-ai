@@ -24,7 +24,7 @@ tiktoken
 # HTTP requests
 urllib3
 
-#   Database and caching
+# Database and caching
 redis
 numpy
 openai
@@ -37,7 +37,7 @@ pytest
 pytest-asyncio>
 black
 flake8
-mypy>
+mypy
 
 
 # Optional dependencies for enhanced functionality

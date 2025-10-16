@@ -3,7 +3,7 @@
 from abc import ABC, abstractmethod
 from typing import List, Dict, Any, Optional, Tuple
 import numpy as np
-from ..models.document import Document
+from shared.models.document import Document
 from ..models.query import Embedding, Query
 
 
