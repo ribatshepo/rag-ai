@@ -1,0 +1,19 @@
+# Analysis configuration
+analysis:
+  security:
+    enabled: true
+    vulnerability_sources: ["npm_audit", "safety", "snyk"]
+  
+  quality:
+    enabled: true
+    complexity_threshold: 10
+    duplication_threshold: 0.1
+  
+  performance:
+    enabled: true
+    bundle_size_limit: "5MB"
+
+# Report generation
+reporting:
+  formats: ["html", "json", "markdown"]
+  output_directory: "./audit_reports"
